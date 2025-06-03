@@ -81,11 +81,18 @@ plt.title('Sprzedaż w I kwartale')
 plt.xlabel('Miesiąc')
 plt.ylabel('Sprzedaż (w tys.)')
 plt.show()
+```
 
 
+## 🔍 Porównanie bibliotek
 
-🔍 Porównanie
-Biblioteka	Najlepsze zastosowanie	Zalety	Ograniczenia
-Pandas	Przetwarzanie danych tabelarycznych, czyszczenie danych, analizy	Szybkość, intuicyjność, bogate funkcje	Wymaga dużo pamięci dla dużych zbiorów danych
-Matplotlib	Wizualizacja danych, tworzenie wykresów	Elastyczność, wiele typów wykresów	Mniej intuicyjna niż niektóre nowsze biblioteki
-Biblioteki doskonale się uzupełniają - Pandas przygotowuje dane, a Matplotlib pomaga je wizualizować. Do bardziej zaawansowanych wizualizacji warto rozważyć bibliotekę Seaborn, która bazuje na Matplotlib i oferuje bardziej atrakcyjne domyślne style.
+| Biblioteka       | Najlepsze zastosowanie                          | Zalety                                      | Ograniczenia                              |
+|------------------|-----------------------------------------------|--------------------------------------------|------------------------------------------|
+| **Pandas**       | Przetwarzanie danych tabelarycznych, czyszczenie danych, analizy | - Szybkość działania<br>- Intuicyjna obsługa<br>- Bogaty zestaw funkcji | - Wysokie zużycie pamięci dla dużych zbiorów danych<br>- Mniej wydajna niż specjalizowane narzędzia (np. Dask) |
+| **Matplotlib**   | Wizualizacja danych, tworzenie wykresów        | - Duża elastyczność<br>- Wiele typów wykresów<br>- Możliwość dokładnego dostosowania | - Mniej intuicyjna niż nowsze biblioteki (np. Plotly)<br>- Wymaga więcej kodu dla złożonych wykresów |
+
+**Uwaga:** Biblioteki doskonale się uzupełniają. Pandas służy do przygotowania i analizy danych, podczas gdy Matplotlib umożliwia ich wizualizację. Dla bardziej zaawansowanych wizualizacji warto rozważyć bibliotekę **Seaborn**, która:
+- Bazuje na Matplotlib
+- Oferuje bardziej atrakcyjne domyślne style
+- Dostarcza dodatkowe typy wykresów
+- Upraszcza tworzenie złożonych wizualizacji
