@@ -81,13 +81,11 @@ plt.title('Sprzedaż w I kwartale')
 plt.xlabel('Miesiąc')
 plt.ylabel('Sprzedaż (w tys.)')
 plt.show()
+
+
+
 🔍 Porównanie
 Biblioteka	Najlepsze zastosowanie	Zalety	Ograniczenia
 Pandas	Przetwarzanie danych tabelarycznych, czyszczenie danych, analizy	Szybkość, intuicyjność, bogate funkcje	Wymaga dużo pamięci dla dużych zbiorów danych
 Matplotlib	Wizualizacja danych, tworzenie wykresów	Elastyczność, wiele typów wykresów	Mniej intuicyjna niż niektóre nowsze biblioteki
 Biblioteki doskonale się uzupełniają - Pandas przygotowuje dane, a Matplotlib pomaga je wizualizować. Do bardziej zaawansowanych wizualizacji warto rozważyć bibliotekę Seaborn, która bazuje na Matplotlib i oferuje bardziej atrakcyjne domyślne style.
-
-📚 Linki do dokumentacji
-Dokumentacja Pandas
-
-Dokumentacja Matplotlib
